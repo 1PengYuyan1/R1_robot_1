@@ -1,0 +1,14 @@
+#include "MotorStructs.h"
+
+// 全局变量定义
+CANable_DM_CAN_Bus_Struct CANable0_DM_CAN_Bus;
+Motor_DM_CAN_Recieve_Struct CANable0_DM_DEV0_RX;
+
+CANable_DJI_CAN_Bus_Struct CANable0_DJI_CAN_Bus;
+Motor_DJI_CAN_Recieve_Struct CANable0_DJI_DEV0_RX;
+
+CANable_Encoder_CAN_Bus_Struct CANable0_Encoder_CAN_Bus;
+Encoder_CAN_Recieve_Struct CANable0_Encoder_DEV0_RX;
+
+CANable_ODrive_CAN_Bus_Struct CANable0_ODrive_CAN_Bus;
+ODrive_CAN_Recieve_Struct CANable0_ODrive_DEV0_RX;

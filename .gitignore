@@ -1,0 +1,26 @@
+# Build outputs
+build/
+cmake-build-*/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+*.cyclo
+compile_commands.json
+
+# IDE & Tools
+.vscode/
+.idea/
+.codex/
+.clangd
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
